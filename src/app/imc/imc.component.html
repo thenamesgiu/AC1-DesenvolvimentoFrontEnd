@@ -1,0 +1,7 @@
+<input type="number" [(ngModel)] = "peso" placeholder = "Peso em quilos (kg)" class="form-control"/>
+<input type="number" [(ngModel)] = "altura" placeholder = "Altura em metros (m)" class="form-control"/>
+
+<p>Valor de IMC obtido: {{imcValor.toFixed(1)}}</p>
+<p>Classificação na tabela IMC: {{imcClass}}</p>
+
+<button class="btn btn-primary" (click)="imc()">Calcular Índice de Massa Corporal</button>

@@ -1,0 +1,6 @@
+<input type="number" [(ngModel)] = "temp" placeholder = "Temperatura em Celsius (°C)" class="form-control"/>
+
+<p>Temperatura em Fahrenheit (°F): {{resultF.toFixed(2)}}</p>
+<p>Temperatura em Kelvin (K): {{resultK.toFixed(2)}}</p>
+
+<button class="btn btn-primary" (click)="conversorTemperatura()">Converter</button>

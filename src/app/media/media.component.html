@@ -1,0 +1,9 @@
+<input type="number" [(ngModel)] = "acUm" placeholder = "Nota AC1" class="form-control"/>
+<input type="number" [(ngModel)] = "acDois" placeholder = "Nota AC2" class="form-control"/>
+<input type="number" [(ngModel)] = "ag" placeholder = "Nota AG" class="form-control"/>
+<input type="number" [(ngModel)] = "af" placeholder = "Nota AF" class="form-control"/>
+
+<p>A média do aluno será: {{mediaFinal.toFixed(2)}}, com isso ele está {{situacao}}</p>
+
+<button class="btn btn-primary" (click)="media()">Calcular média final</button>
+

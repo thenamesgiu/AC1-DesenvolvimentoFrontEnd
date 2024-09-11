@@ -1,0 +1,8 @@
+<input type="number" [(ngModel)] = "num" placeholder = "Primeiro número" class="form-control"/>
+<input type="text" [(ngModel)] = "oper" placeholder = "Operação matemática" class="form-control"/>
+<input type="number" [(ngModel)] = "numb" placeholder = "Segundo número" class="form-control"/>
+<input type="number" [(ngModel)] = "result" placeholder = "Resultado" class="form-control"/>
+
+<p>{{erro}}</p>
+
+<button class="btn btn-primary" (click)="calculadora()">Calcular</button>
